@@ -79,7 +79,12 @@ public class Main {
     }
     public static void task7() {
         System.out.println("Задача 7");
-
+        var weightFirstBoxer = 78.2;
+        var weightSecondBoxer = 82.7;
+        var weightDifference1 = weightSecondBoxer - weightFirstBoxer;
+        System.out.println("Разница в весе боксеров " + weightDifference1 + " кг!");
+        var weightDifference2 = weightSecondBoxer % weightFirstBoxer;
+        System.out.println("Разница в весе боксеров " + weightDifference2 + " кг!");
     }
     public static void task8() {
         System.out.println("Задача 8");
