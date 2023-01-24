@@ -88,5 +88,13 @@ public class Main {
     }
     public static void task8() {
         System.out.println("Задача 8");
+        var totalWorkTime = 640;
+        var workTimeOneWorker = 8;
+        var totalWorkers = totalWorkTime / workTimeOneWorker;
+        System.out.println("Всего работников в компании " + totalWorkers + " человек");
+        var overWorkers = 94;
+        var totalWorkersNow = totalWorkers + overWorkers;
+        var totalWorkTimeNow = totalWorkersNow * workTimeOneWorker;
+        System.out.println("Если в компании работает " + totalWorkersNow + " человек, то всего " + totalWorkTimeNow + " часов работы может быть поделено между сотрудниками");
     }
 }
