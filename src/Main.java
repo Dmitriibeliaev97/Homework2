@@ -96,5 +96,6 @@ public class Main {
         var totalWorkersNow = totalWorkers + overWorkers;
         var totalWorkTimeNow = totalWorkersNow * workTimeOneWorker;
         System.out.println("Если в компании работает " + totalWorkersNow + " человек, то всего " + totalWorkTimeNow + " часов работы может быть поделено между сотрудниками");
+
     }
 }
